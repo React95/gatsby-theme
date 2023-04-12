@@ -1,6 +1,6 @@
-import React from 'react';
+import { List, TaskBar as R95TaskBar } from '@react95/core';
 import { navigate } from 'gatsby';
-import { TaskBar as R95TaskBar, List } from '@react95/core';
+import React from 'react';
 
 import { isEmpty } from '../utils';
 import IconRenderer from './icon-renderer';
@@ -24,7 +24,7 @@ const NavList = ({ nav }) => (
         return (
           <List.Item
             key={slug}
-            onClick={() => navigate(`/${slug}`)}
+            onClick={() => navigate(slug)}
             icon={<IconRenderer {...icon} />}
             role="button"
             title={description}

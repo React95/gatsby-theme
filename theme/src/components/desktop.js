@@ -18,7 +18,9 @@ const Desktop = ({ pageContext: { data, content = {} }, children }) => {
     <>
       <Seo content={content} />
       <ContentExplorer nav={nav} />
-      <Content content={content}>{children}</Content>
+      {Object.keys(content).length > 0 && (
+        <Content content={content}>{children}</Content>
+      )}
       <TaskBar nav={nav} />
     </>
   );

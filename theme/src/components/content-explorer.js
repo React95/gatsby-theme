@@ -1,8 +1,8 @@
-import React from 'react';
-import { Link, navigate } from 'gatsby';
 import { Frame, Modal, Tree } from '@react95/core';
 import * as R95Icons from '@react95/icons';
 import styled from '@xstyled/styled-components';
+import { Link, navigate } from 'gatsby';
+import React from 'react';
 
 import { isEmpty, isMobile } from '../utils';
 import { TASKBAR_HEIGHT } from '../utils/constants';
@@ -29,7 +29,7 @@ function getTreeData(nav, select) {
         };
       }
 
-      return { ...node, onClick: () => navigate(`/${slug}`) };
+      return { ...node, onClick: () => navigate(slug) };
     },
   );
 }
@@ -94,7 +94,7 @@ export const Shortcut = ({
     margin={12}
     tabIndex="0"
     {...(slug && {
-      to: `/${slug}`,
+      to: slug,
     })}
     {...rest}
   >
@@ -145,7 +145,7 @@ const ExplorerModal = ({ nav, closeModal }) => {
         </Frame>
 
         <Frame bg="white" boxShadow="in">
-          {selectedFolder.data.map(content => (
+          {selectedFolder.data.map((content) => (
             <Shortcut key={content.id} {...content} />
           ))}
         </Frame>

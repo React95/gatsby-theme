@@ -4,7 +4,7 @@ const navify = (nodes) => {
   let allRoutes = {};
 
   nodes.forEach(({ fields: { slug }, frontmatter }) => {
-    const path = slug.replace(/\/$/, '').replace(/\//g, '.');
+    const path = slug.replace(/^\//, '').replace(/\/$/, '').replace(/\//g, '.');
 
     if (objectPath.has(allRoutes, path)) {
       const origin = objectPath.get(allRoutes, path);
