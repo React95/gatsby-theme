@@ -1,0 +1,14 @@
+{
+  "name": "react95-gatsby-theme-workspace",
+  "private": true,
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn workspace example build",
+    "develop": "yarn workspace example develop"
+  },
+  "workspaces": [
+    "theme",
+    "example"
+  ]
+}
