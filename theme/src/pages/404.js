@@ -1,6 +1,6 @@
+import { Frame } from '@react95/core';
 import React from 'react';
 import styled, { createGlobalStyle, keyframes } from 'styled-components';
-import { Frame, ThemeProvider } from '@react95/core';
 
 const ErrorPageStyle = createGlobalStyle`
 @font-face {
@@ -23,6 +23,10 @@ html {
   }
 }
 
+* {
+  font-family: "Perfect DOS";
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -36,11 +40,10 @@ html {
 
 body {
   background-color: #00a;
-  font-family: "Perfect DOS";
 }
 
 body, a {
-  color: #f1f1f1;
+  color: #f1f1f1 !important;;
 }
 `;
 
@@ -67,7 +70,7 @@ const CenterText = styled.div`
 `;
 
 const ErrorPage = () => (
-  <ThemeProvider>
+  <>
     <ErrorPageStyle />
 
     <Frame
@@ -99,7 +102,7 @@ const ErrorPage = () => (
         </CenterText>
       </Frame>
     </Frame>
-  </ThemeProvider>
+  </>
 );
 
 export default ErrorPage;
