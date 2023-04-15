@@ -1,15 +1,27 @@
 {
   "name": "react95-gatsby-theme-workspace",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.0-development",
   "license": "MIT",
   "scripts": {
     "build": "yarn workspace example build",
     "serve": "yarn workspace example serve",
-    "develop": "yarn workspace example develop"
+    "develop": "yarn workspace example develop",
+    "semantic-release": "semantic-release"
   },
   "workspaces": [
     "theme",
     "example"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/React95/gatsby-theme.git"
+  },
+  "devDependencies": {
+    "semantic-release": "^21.0.1"
+  },
+  "dependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1"
+  }
 }
