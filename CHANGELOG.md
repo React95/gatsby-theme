@@ -1,3 +1,16 @@
+# [2.0.0](https://github.com/React95/gatsby-theme/compare/v1.0.0...v2.0.0) (2023-04-15)
+
+
+### Code Refactoring
+
+* bumping Gatsby version to v5 ([e99f0ec](https://github.com/React95/gatsby-theme/commit/e99f0ec326452e8aea941901232bb00da49cda31))
+
+
+### BREAKING CHANGES
+
+* This is the newest version of @react95/theme, built with Gatsby v5 and node 18.
+Consider upgrading all your dependencies first.
+
 # 1.0.0 (2023-04-15)
 
 
