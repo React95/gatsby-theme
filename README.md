@@ -26,7 +26,7 @@ If you already have a site you'd like to add the React95 theme to, you can manua
 
 1. Install the React95 theme
 
-```
+```bash
 npm install @react95/core @react95/gatsby-theme styled-components
 
 # or
@@ -123,7 +123,6 @@ modal:false
 icon:
   name: Computer
   variant: 32x32_4
-
 ---
 
 # Your website starts on this folder
