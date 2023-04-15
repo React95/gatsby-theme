@@ -1,3 +1,26 @@
+# 1.0.0 (2023-04-15)
+
+
+### Bug Fixes
+
+* clickings ([d9fe00e](https://github.com/React95/gatsby-theme/commit/d9fe00ea2c56b515c2494fdc6ab017b11f32dce7))
+
+
+### Code Refactoring
+
+* bumping Gatsby version to v5 ([4003006](https://github.com/React95/gatsby-theme/commit/40030069bc9d6bd4bbd0ed1f5646dce6a3a31fe1))
+
+
+### Features
+
+* initial commit :tada: ([26cdf4b](https://github.com/React95/gatsby-theme/commit/26cdf4beb46ba1184159f07e768b013b61df3919))
+
+
+### BREAKING CHANGES
+
+* This is the newest version of @react95/theme, built with Gatsby v5 and node 18.
+Consider upgrading all your dependencies first.
+
 # Change Log
 
 All notable changes to this project will be documented in this file.
