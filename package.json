@@ -8,7 +8,7 @@
     "serve": "yarn workspace example serve",
     "develop": "yarn workspace example develop",
     "semantic-release": "semantic-release",
-    "publish": "yarn workspace example deploy && echo yarn workspace theme publish"
+    "publish": "yarn workspace example deploy && yarn workspace theme publish"
   },
   "workspaces": [
     "theme",
