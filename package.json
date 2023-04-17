@@ -7,7 +7,8 @@
     "build": "yarn workspace example build",
     "serve": "yarn workspace example serve",
     "develop": "yarn workspace example develop",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "publish": "yarn workspace example deploy && echo 'yarn workspace theme publish'"
   },
   "workspaces": [
     "theme",
@@ -22,6 +23,7 @@
   },
   "dependencies": {
     "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/git": "^10.0.1"
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release-monorepo": "^7.0.5"
   }
 }
