@@ -7,7 +7,7 @@
     "develop": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "postpublish": "gh-pages -d public"
+    "deploy": "gh-pages -d public"
   },
   "dependencies": {
     "@react95/gatsby-theme": "^2.1.1",
