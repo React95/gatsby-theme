@@ -5,6 +5,17 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [1.1.3](https://github.com/React95/gatsby-theme/compare/example@1.1.2...example@1.1.3) (2023-04-18)
 
+
+### Bug Fixes
+
+* example `basePath` ([2c3b011](https://github.com/React95/gatsby-theme/commit/2c3b0110e82e1fd415d1e01ce66233d7d6b87d8a))
+
+
+
+
+
+## [1.1.3](https://github.com/React95/gatsby-theme/compare/example@1.1.2...example@1.1.3) (2023-04-18)
+
 **Note:** Version bump only for package example
 
 
