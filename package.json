@@ -8,8 +8,7 @@
     "build": "yarn workspace example build",
     "serve": "yarn workspace example serve",
     "develop": "yarn workspace example develop",
-    "semantic-release": "semantic-release",
-    "publish": "yarn workspace example deploy && yarn workspace theme publish"
+    "semantic-release": "semantic-release"
   },
   "workspaces": [
     "theme",
@@ -20,11 +19,6 @@
     "url": "https://github.com/React95/gatsby-theme.git"
   },
   "devDependencies": {
-    "semantic-release": "^21.0.1"
-  },
-  "dependencies": {
-    "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/git": "^10.0.1",
-    "semantic-release-monorepo": "^7.0.5"
+    "lerna": "^6.6.1"
   }
 }
