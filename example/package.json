@@ -1,6 +1,6 @@
 {
   "name": "example",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "ggdaltoso <ggdaltoso@gmail.com> (@ggdaltoso)",
   "license": "MIT",
   "scripts": {
@@ -10,7 +10,7 @@
     "publish": "gh-pages -d public"
   },
   "dependencies": {
-    "@react95/gatsby-theme": "^2.1.0",
+    "@react95/gatsby-theme": "^2.1.1",
     "gatsby": "^5.8.1",
     "gh-pages": "^5.0.0",
     "react": "^18.2.0",
