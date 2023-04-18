@@ -1,1 +1,1 @@
-theme/README.md
+./theme/README.md
