@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="../React95-Gatsby.png" width="260" />
+    <img alt="Gatsby" src="https://raw.githubusercontent.com/React95/gatsby-theme/master/React95-Gatsby.png" width="260" />
   </a>
 </p>
 
