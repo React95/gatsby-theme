@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="./React95-Gatsby.png" width="260" />
+    <img alt="Gatsby" src="https://raw.githubusercontent.com/React95/gatsby-theme/master/React95-Gatsby.png" width="260" />
   </a>
 </p>
 
@@ -121,8 +121,9 @@ title: Getting Started
 description: Your awesome and nostalgic website!
 modal:false
 icon:
-  name: Computer
-  variant: 32x32_4
+name: Computer
+variant: 32x32_4
+
 ---
 
 # Your website starts on this folder

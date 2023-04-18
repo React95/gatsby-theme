@@ -7,8 +7,7 @@
   "scripts": {
     "build": "yarn workspace example build",
     "serve": "yarn workspace example serve",
-    "develop": "yarn workspace example develop",
-    "semantic-release": "semantic-release"
+    "develop": "yarn workspace example develop"
   },
   "workspaces": [
     "theme",
