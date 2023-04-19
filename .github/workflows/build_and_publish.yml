@@ -48,7 +48,6 @@ jobs:
       - name: Deploy example to GH Pages
         run: |
           GH_TOKEN=${GH_TOKEN}
-          echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc
           yarn lerna run deploy --scope=example
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
