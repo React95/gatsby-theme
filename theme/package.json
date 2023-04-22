@@ -35,6 +35,7 @@
     "gatsby-source-filesystem": "^5.8.0",
     "lodash.startcase": "^4.4.0",
     "object-path": "^0.11.8",
+    "prismjs": "^1.29.0",
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {

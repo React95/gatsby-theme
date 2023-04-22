@@ -15,7 +15,10 @@ const DesktopStyle = createGlobalStyle`
     margin: 0 !important;
     border-radius: 0 !important;
   }
-`;
+  pre[class*="language-"] * {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+  `;
 
 export const wrapRootElement = ({ element }) => (
   <ThemeProvider>{element}</ThemeProvider>
