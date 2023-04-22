@@ -14,7 +14,7 @@ icon:
 Feel free to add your content!
 `;
 
-exports.onCreateNode = ({ node, getNode, actions }) => {
+exports.onCreateNode = ({ node, getNode, actions }, { basePath }) => {
   const { createNodeField } = actions;
 
   if (node.internal.type === 'Mdx') {
@@ -23,7 +23,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     createNodeField({
       node,
       name: 'slug',
-      value: slug,
+      value: basePath ? `${basePath}${slug}` : slug,
     });
   }
 };
@@ -82,7 +82,7 @@ exports.createPages = async (
   createPage({
     path: basePath,
     component: desktop,
-    context: { content: {}, data: result.data },
+    context: { content: {}, data: result.data, basePath },
   });
 
   const contents = result.data.allMdx.edges;
@@ -95,7 +95,7 @@ exports.createPages = async (
     createPage({
       path: slug,
       component: `${desktop}?__contentFilePath=${node.internal.contentFilePath}`,
-      context: { content: node, data: result.data },
+      context: { content: node, data: result.data, basePath },
     });
   });
 };
