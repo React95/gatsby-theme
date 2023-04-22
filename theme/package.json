@@ -31,6 +31,7 @@
     "gatsby-plugin-styled-components": "^6.8.0",
     "gatsby-plugin-typescript": "^5.8.0",
     "gatsby-react-router-scroll": "^6.8.0",
+    "gatsby-remark-prismjs": "^7.9.0",
     "gatsby-source-filesystem": "^5.8.0",
     "lodash.startcase": "^4.4.0",
     "object-path": "^0.11.8",

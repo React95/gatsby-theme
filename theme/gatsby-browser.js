@@ -1,6 +1,6 @@
-import React from 'react';
-import { ThemeProvider, GlobalStyle } from '@react95/core';
+import { GlobalStyle, ThemeProvider } from '@react95/core';
 import { createGlobalStyle } from '@xstyled/styled-components';
+import React from 'react';
 
 const DesktopStyle = createGlobalStyle`
   html {
@@ -9,6 +9,11 @@ const DesktopStyle = createGlobalStyle`
 
   body {
     height: 100%;
+  }
+
+  pre[class*="language-"] {
+    margin: 0 !important;
+    border-radius: 0 !important;
   }
 `;
 

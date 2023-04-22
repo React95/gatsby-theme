@@ -15,7 +15,12 @@ const config = ({ contentPath = 'content', basePath = '/' } = {}) => ({
     },
     'gatsby-plugin-typescript',
     'gatsby-plugin-mdx-frontmatter',
-    'gatsby-plugin-mdx',
+    {
+      resolve: 'gatsby-plugin-mdx',
+      options: {
+        gatsbyRemarkPlugins: ['gatsby-remark-prismjs'],
+      },
+    },
     'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet',
   ],
