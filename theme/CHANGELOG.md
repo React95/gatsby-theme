@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.2](https://github.com/React95/gatsby-theme/compare/@react95/gatsby-theme@2.1.1...@react95/gatsby-theme@2.1.2) (2023-04-22)
+
+
+### Bug Fixes
+
+* passing basePath to desktop and navify ([9417e6b](https://github.com/React95/gatsby-theme/commit/9417e6b988568db78b493222959b4bcad81804c9))
+
+
+
+
+
 ## [2.1.1](https://github.com/React95/gatsby-theme/compare/@react95/gatsby-theme@2.1.0...@react95/gatsby-theme@2.1.1) (2023-04-18)
 
 **Note:** Version bump only for package @react95/gatsby-theme
