@@ -3,6 +3,7 @@
   "version": "1.1.2",
   "author": "ggdaltoso <ggdaltoso@gmail.com> (@ggdaltoso)",
   "license": "MIT",
+  "private": true,
   "scripts": {
     "predevelop": "gatsby clean",
     "develop": "gatsby develop",
