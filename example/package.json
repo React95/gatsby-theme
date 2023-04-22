@@ -4,6 +4,7 @@
   "author": "ggdaltoso <ggdaltoso@gmail.com> (@ggdaltoso)",
   "license": "MIT",
   "scripts": {
+    "predevelop": "gatsby clean",
     "develop": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
