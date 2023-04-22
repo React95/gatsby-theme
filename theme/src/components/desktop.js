@@ -7,12 +7,18 @@ import ContentExplorer from './content-explorer';
 import Seo from './seo';
 import TaskBar from './taskbar';
 
-const Desktop = ({ pageContext: { data, content = {} }, children }) => {
+const Desktop = ({
+  pageContext: { data, content = {}, basePath },
+  children,
+}) => {
   const {
     allMdx: { edges },
   } = data;
 
-  const nav = navify(edges.map((e) => e.node));
+  const nav = navify(
+    edges.map((e) => e.node),
+    { basePath },
+  );
 
   return (
     <>

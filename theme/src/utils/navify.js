@@ -1,6 +1,6 @@
 import objectPath from 'object-path';
 
-const navify = (nodes) => {
+const navify = (nodes, { basePath }) => {
   let allRoutes = {};
 
   nodes.forEach(({ fields: { slug }, frontmatter }) => {
@@ -15,7 +15,7 @@ const navify = (nodes) => {
     }
   });
 
-  return allRoutes;
+  return allRoutes[basePath.replace(/^\//, '')] || allRoutes;
 };
 
 export default navify;
