@@ -1,5 +1,6 @@
 import { MDXProvider } from '@mdx-js/react';
 import * as R95Components from '@react95/core';
+import * as R95Icons from '@react95/icons';
 import { navigate } from 'gatsby';
 import React, { useEffect, useRef } from 'react';
 
@@ -35,7 +36,9 @@ const Content = ({ content, children }) => {
         closeModal={() => navigate('/')}
       >
         <div ref={ref}>
-          <MDXProvider components={R95Components}>{children}</MDXProvider>
+          <MDXProvider components={{ ...R95Components, ...R95Icons }}>
+            {children}
+          </MDXProvider>
         </div>
       </R95Components.Modal>
     );
