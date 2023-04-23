@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.5](https://github.com/React95/gatsby-theme/compare/example@1.1.4...example@1.1.5) (2023-04-23)
+
+
+### Bug Fixes
+
+* remove `basePath` ([e44f678](https://github.com/React95/gatsby-theme/commit/e44f6785e59c080acc58e4530b7bf6c76b4c0865))
+
+
+
+
+
 ## [1.1.4](https://github.com/React95/gatsby-theme/compare/example@1.1.3...example@1.1.4) (2023-04-22)
 
 **Note:** Version bump only for package example
