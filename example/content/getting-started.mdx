@@ -1,21 +1,93 @@
 ---
 title: Getting Started
 icon:
-  name: Computer
+  name: Awfxex32Info
   variant: 32x32_4
 ---
 
-# Getting Started
+<p align="center">
+  <a href="https://www.gatsbyjs.com">
+    <img
+      alt="Gatsby"
+      src="https://raw.githubusercontent.com/React95/gatsby-theme/master/React95-Gatsby.png"
+      width="260"
+    />
+  </a>
+</p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+<h1 align="center">The React95 Gatsby theme</h1>
 
-Nam dictum nulla non augue posuere, et sagittis nisi ultricies. Praesent
-consequat consectetur fringilla. Ut enim felis, euismod at feugiat a,
-consectetur ac magna. Pellentesque vitae porta purus, et hendrerit justo.
+<Frame overflow="auto" boxShadow="none">
 
-Nulla id lacus in lorem malesuada rutrum a eget nunc. Nulla porttitor libero in
-massa volutpat interdum. Sed tristique eros sit amet libero hendrerit, eget
-efficitur nisi aliquet. Fusce sagittis ut orci ut gravida. Nulla facilisi.
+## Installation
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
-turpis egestas. Duis quis mollis nibh.
+<Fieldset legend="New site">
+
+If you're creating a new site and want to use the React95 theme, you can use the [Gatsby CLI](https://www.gatsbyjs.com/docs/reference/gatsby-cli/#new) (make sure to select styled-components as your styling system)
+
+<Frame boxShadow="in" bg="canvas" color="canvasText">
+
+```bash
+gatsby new my-nostalgic-blog
+```
+
+</Frame>
+
+Follow the CLI and when you've finished, go to the next step
+
+</Fieldset>
+
+<br />
+<br />
+
+<Fieldset legend="Existing site">
+
+If you already have a site you'd like to add the React95 theme to, you can manually configure it.
+
+1. Install the React95 theme
+
+<Frame boxShadow="in" bg="canvas" color="canvasText">
+
+```bash
+npm install @react95/core @react95/gatsby-theme styled-components
+
+# or
+
+yarn add @react95/core @react95/gatsby-theme styled-components
+```
+
+</Frame>
+
+2. Add the configuration to your `gatsby-config.js` file
+
+<Frame boxShadow="in" bg="canvas" color="canvasText">
+
+```javascript
+// gatsby-config.js
+module.exports = {
+  plugins: [
+    {
+      resolve: `@react95/gatsby-theme`,
+      options: {
+        // basePath defaults to `/`
+        basePath: `/site`,
+      },
+    },
+  ],
+};
+```
+
+</Frame>
+
+3. Add content to your site by creating `md` or `mdx` files inside `/content` folder.
+
+> React95 theme will create everything for you so you might not need `src/pages`.
+
+> Note that if you've changed the default `contentPath` in the configuration, you'll want to add your markdown files in the directory specified by that path.
+
+4. Run your site using `gatsby develop` and see your content in the TaskBar. If you used the above configuration, your URL will be `http://localhost:8000/site`
+
+> If you have no content in the beginning, React95 theme will generate a starter for you.
+
+</Fieldset>
+</Frame>

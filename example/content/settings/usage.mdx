@@ -1,0 +1,262 @@
+---
+title: Theme options
+icon:
+  name: Fm20enu5
+  variant: 32x32_4
+---
+
+<Tabs defaultActiveTab="Usage">
+  <Tab title="Usage">
+
+    <Frame boxShadow="none" display="flex" gap={12} >
+      <div style={{ marginTop: '1em' }}>
+        <Settings variant="32x32_4" />
+      </div>
+
+      You can provide some configs to `@react95/gatsby-theme` theme. <br />
+      They must be set in your `gatsby-config.js`, usually in project's root.
+
+    </Frame>
+
+Example
+
+```javascript
+// gatsby-config.js
+module.exports = {
+  plugins: [
+    {
+      resolve: '@react95/gatsby-theme',
+      options: {
+        // Root url for all content
+        // defaults to '/'
+        basePath: '/blog',
+        // Location of your content,
+        // defaults to 'content'
+        contentPath: 'data',
+      },
+    },
+  ],
+};
+```
+
+  </Tab>
+  <Tab title="Additional configuration">
+    <Frame boxShadow="none" display="flex" gap={12}>
+      <div style={{ marginTop: '1em' }}>
+        <FileFind variant="32x32_4" />
+      </div>
+
+      <div>
+        In addition to the theme options, there are a handful of items you can
+        customize via the `siteMetadata` object in your site's
+        `gatsby-config.js`. <br /> Our theme will get these values to handle SEO for
+        you.
+
+        <strong>SEO</strong>: It's the practice of optimizing your web pages to make
+        them reach a high position in the search results of Google and other search
+        engines. In other words: People will be more likely to encounter your website
+        when searching online.
+
+      </div>
+
+    </Frame>
+
+Example
+
+```javascript
+// gatsby-config.js
+module.exports = {
+  siteMetadata: {
+    // Used for the site title and SEO
+    title: `Gatsby - Powered By React95`,
+    // Used for SEO
+    description: `This is a Gatsby website that uses React95`,
+    // Used for resolving images in social cards
+    siteUrl: `https://example.com`,
+    // Used for SEO in social cards
+    image: `/path-to/your/image`,
+    // Used for SEO
+    author: `@mynickname`,
+  },
+};
+```
+
+  </Tab>
+
+  <Tab title="Content fields">
+    <Frame boxShadow="none" display="flex" gap={12}>
+      <div style={{ marginTop: '1em' }}>
+        <FilePencil variant="32x32_4" />
+      </div>
+
+      The following are the defined content fields based on the node interface
+      in the schema
+
+    </Frame>
+
+    <br />
+
+<Fieldset legend="Content type">
+  <table>
+    <thead>
+      <tr>
+        <th
+          style={{
+            textAlign: 'left',
+            width: 125,
+          }}
+        >Field</th>
+        <th style={{
+            textAlign: 'left',
+          }}>Type</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>title</td>
+        <td>String</td>
+      </tr>
+      <tr>
+        <td>image</td>
+        <td>String</td>
+      </tr>
+      <tr>
+        <td>description</td>
+        <td>String</td>
+      </tr>
+      <tr>
+        <td>icon</td>
+        <td>Icon</td>
+      </tr>
+      <tr>
+        <td>image</td>
+        <td>String</td>
+      </tr>
+      <tr>
+        <td>modal</td>
+        <td>Boolean</td>
+      </tr>
+    </tbody>
+  </table>
+</Fieldset>
+
+<br />
+
+<Fieldset legend="Icon type">
+  <table>
+    <thead>
+      <tr>
+        <th
+          style={{
+            textAlign: 'left',
+            width: 125,
+          }}
+        >Field</th>
+        <th>Type</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>name</td>
+        <td>String</td>
+      </tr>
+      <tr>
+        <td>variant</td>
+        <td>String</td>
+      </tr>
+    </tbody>
+  </table>
+</Fieldset>
+
+<hr style={{ marginBlock: '1.25em'}} />
+
+Example
+
+<Frame boxShadow="in">
+```md
+---
+
+title: Getting Started
+description: Your awesome and nostalgic website!
+modal: false
+icon:
+  name: Computer
+  variant: 32x32_4
+
+---
+
+# Your website starts on this folder
+
+Feel free to add your content!
+```
+</Frame>
+
+  </Tab>
+
+  <Tab title="Image Behavior">
+    <Frame boxShadow="none" display="flex" gap={12}>
+      <div style={{ marginTop: '1em' }}>
+        <Wangimg130 variant="32x32_4" />
+      </div>
+      <div>
+        Content can include references to images from static folder inside
+        frontmatter.
+
+        <strong>WARNING</strong>: When adding an image it will be the featured
+        image within the post.
+
+      </div>
+
+    </Frame>
+
+Example
+
+<Frame boxShadow="in">
+```md
+---
+title: Hello World (example)
+image: /some-image.jpg
+icon:
+  name: Computer
+  variant: 32x32_4
+---
+```
+</Frame>
+
+  </Tab>
+
+  <Tab title="How styles work">
+  Inside any `mdx` file you have all React95 components and all React95 icons at
+  your service:
+
+Example
+```md
+---
+title: How to play Freecell
+icon:
+  name: FolderExe
+  variant: 16x16_4
+---
+
+<Frame
+  bg="white"
+  p={6}
+  boxShadow="in"
+  height="100%"
+>
+
+# How to play Freecell
+
+<Freecell1 variant="32x32_4" />
+
+...
+
+</Frame>
+```
+
+<br />
+
+[React95 components](https://react95.github.io/React95/) and [React95 icons](https://react95.github.io/React95/?path=/docs/icon--all)
+  </Tab>
+
+</Tabs>
