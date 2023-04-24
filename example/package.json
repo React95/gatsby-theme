@@ -6,8 +6,8 @@
   "private": true,
   "scripts": {
     "predevelop": "gatsby clean",
-    "develop": "gatsby develop",
-    "build": "gatsby build",
+    "develop": "gatsby develop --prefix-paths",
+    "build": "gatsby build --prefix-paths",
     "serve": "gatsby serve",
     "deploy": "gh-pages -d public"
   },
