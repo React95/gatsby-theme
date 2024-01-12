@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.6](https://github.com/React95/gatsby-theme/compare/example@1.1.5...example@1.1.6) (2024-01-12)
+
+
+### Bug Fixes
+
+* add `pathPrefix` ([a3fec1a](https://github.com/React95/gatsby-theme/commit/a3fec1a35ed345b138cdaa903fa72cec876ef8ad))
+* basePath ([065e3c5](https://github.com/React95/gatsby-theme/commit/065e3c51e4edc6662d948fb4c8ad1d3c1ef5aab7))
+* remove `basePath` ([395e2e4](https://github.com/React95/gatsby-theme/commit/395e2e4cc6dd65b93d23b07a76f47afca0bb7ea1))
+
+
+
+
+
 ## [1.1.5](https://github.com/React95/gatsby-theme/compare/example@1.1.4...example@1.1.5) (2023-04-23)
 
 

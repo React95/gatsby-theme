@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.1](https://github.com/React95/gatsby-theme/compare/@react95/gatsby-theme@2.2.0...@react95/gatsby-theme@2.2.1) (2024-01-12)
+
+**Note:** Version bump only for package @react95/gatsby-theme
+
+
+
+
+
 # [2.2.0](https://github.com/React95/gatsby-theme/compare/@react95/gatsby-theme@2.1.2...@react95/gatsby-theme@2.2.0) (2023-04-23)
 
 
