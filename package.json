@@ -18,5 +18,9 @@
   },
   "devDependencies": {
     "lerna": "^6.6.1"
+  },
+  "dependencies": {
+    "@react95/core": "^7.0.1",
+    "@react95/icons": "^2.1.0"
   }
 }
