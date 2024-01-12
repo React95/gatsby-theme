@@ -2410,23 +2410,23 @@
     "@pnpm/network.ca-file" "^1.0.1"
     config-chain "^1.1.11"
 
-"@react95/core@^6.0.6":
-  version "6.0.6"
-  resolved "https://registry.yarnpkg.com/@react95/core/-/core-6.0.6.tgz#3a8aa5cf9c9fa3f924c2c85d60080b0b82f123a9"
-  integrity sha512-vvvG48sdHdYWzNmmKSmwoAamhV6lrBwivbV4zO37X7X0X377gBk2trRTMxGXYO06xkp6lVa6N8Tlk5rp3Unt3g==
+"@react95/core@^7.0.1":
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/@react95/core/-/core-7.0.1.tgz#01764282060ef9025564066d68cd5741abba9d9b"
+  integrity sha512-+ZDV1HLmgA9psD/CY9wuSkKAZn9BYUYVB1FhcBli4T1ydlzk0z2PmvycN/wNAW5gskUotsBGSleHpK8H56ywBg==
   dependencies:
-    "@react95/icons" "^2.0.6"
-    "@types/react-virtualized" "^9.21.20"
+    "@react95/icons" "^2.1.0"
     csstype "^3.0.11"
     nanoid "^3.3.1"
     react-draggable "^4.4.4"
     styled-system "^5.1.5"
     typescript "^4.6.2"
+    url-loader "^4.1.1"
 
-"@react95/icons@^2.0.6":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@react95/icons/-/icons-2.0.6.tgz#72b732deb9460ed5a0f0673ab15c17acad47cf58"
-  integrity sha512-zLwi3S+UpnqcNuLcHd6ruqLJzVtCyfY8tQr1qCTaooF8s90Fhy1guGfrp4npJ/3mNLD3UbHLyH18iT9OuUwntQ==
+"@react95/icons@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@react95/icons/-/icons-2.1.0.tgz#24ae80c31a3394001506d4cc1a18f0cf9a57841e"
+  integrity sha512-rYkKN8JxuG5Q7J7OUrNVMplle3V5nEM8q4YcNyZdDnlqqn28Iuf+l49RkvTrkNbPwgpNka+uiOJmSmfOWoQaxg==
 
 "@sideway/address@^4.1.3":
   version "4.1.4"
@@ -2875,27 +2875,10 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-virtualized@^9.21.20":
-  version "9.21.21"
-  resolved "https://registry.yarnpkg.com/@types/react-virtualized/-/react-virtualized-9.21.21.tgz#65c96f25314f0fb3d40536929dc78112753b49e1"
-  integrity sha512-Exx6I7p4Qn+BBA1SRyj/UwQlZ0I0Pq7g7uhAp0QQ4JWzZunqEqNBGTmCmMmS/3N9wFgAGWuBD16ap7k8Y14VPA==
-  dependencies:
-    "@types/prop-types" "*"
-    "@types/react" "^17"
-
 "@types/react@*", "@types/react@>=16":
   version "18.0.34"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.34.tgz#e553444a578f023e6e1ac499514688fb80b0a984"
   integrity sha512-NO1UO8941541CJl1BeOXi8a9dNKFK09Gnru5ZJqkm4Q3/WoQJtHvmwt0VX0SB9YCEwe7TfSSxDuaNmx6H2BAIQ==
-  dependencies:
-    "@types/prop-types" "*"
-    "@types/scheduler" "*"
-    csstype "^3.0.2"
-
-"@types/react@^17":
-  version "17.0.57"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.57.tgz#341152f222222075caf020ae6e0e68b9b835404c"
-  integrity sha512-e4msYpu5QDxzNrXDHunU/VPyv2M1XemGG/p7kfCjUiPtlLDCWLGQfgAMng6YyisWYxZ09mYdQlmMnyS0NfZdEg==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
